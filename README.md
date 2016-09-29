@@ -1,5 +1,5 @@
 # fetch_issues
-fetch all issues from a github repository and output them as CSV
+Fetches all issues from a github repository and outputs them as CSV.
 
 usage is:
 `fetch_issues.py -o <repository owner> -r <repository name> [-s <issue state: open, closed, or all>]`
