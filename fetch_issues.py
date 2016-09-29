@@ -30,7 +30,7 @@ repository = None
 state = "open"
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'o:r:s:v')
+    opts, args = getopt.getopt(sys.argv[1:], 'o:r:s:')
 except getopt.GetoptError as err:
     print(err)
     usage()
